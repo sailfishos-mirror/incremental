@@ -63,7 +63,7 @@ idna==3.7
     #   hyperlink
 importlib-metadata==8.0.0
     # via keyring
-incremental==22.10.0
+incremental==24.7.2
     # via twisted
 jaraco-classes==3.4.0
     # via keyring
@@ -124,13 +124,14 @@ tomli==2.0.1
     # via
     #   build
     #   hatchling
+    #   incremental
 tomli-w==1.0.0
     # via hatch
 tomlkit==0.13.0
     # via hatch
 trove-classifiers==2024.7.2
     # via hatchling
-twisted==24.3.0
+twisted==24.7.0
     # via -r requirements_tests.in
 typing-extensions==4.12.2
     # via
