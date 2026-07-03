@@ -26,7 +26,7 @@ click==8.1.7
     #   userpath
 constantly==23.10.4
     # via twisted
-coverage==7.5.4
+coverage==7.15.0
     # via
     #   -r requirements_tests.in
     #   coverage-p
@@ -60,9 +60,7 @@ idna==3.11
     #   httpx
     #   hyperlink
 importlib-metadata==8.0.0
-    # via
-    #   build
-    #   keyring
+    # via keyring
 incremental==24.7.2
     # via twisted
 jaraco-classes==3.4.0
@@ -132,7 +130,6 @@ twisted==25.5.0
 typing-extensions==4.15.0
     # via
     #   anyio
-    #   automat
     #   cryptography
     #   twisted
 userpath==1.9.2
