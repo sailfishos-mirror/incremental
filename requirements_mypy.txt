@@ -4,6 +4,8 @@
 #
 #    pip-compile --output-file=requirements_mypy.txt requirements_mypy.in
 #
+ast-serialize==0.6.0
+    # via mypy
 attrs==23.2.0
     # via twisted
 automat==24.8.1
@@ -18,15 +20,15 @@ idna==3.11
     # via hyperlink
 incremental==24.7.2
     # via twisted
-librt==0.8.1
+librt==0.12.0
     # via mypy
-mypy==1.19.1
+mypy==2.1.0
     # via -r requirements_mypy.in
 mypy-extensions==1.0.0
     # via mypy
 packaging==26.0
     # via hatchling
-pathspec==0.12.1
+pathspec==1.1.1
     # via
     #   hatchling
     #   mypy
@@ -43,7 +45,6 @@ twisted==25.5.0
     # via -r requirements_mypy.in
 typing-extensions==4.12.2
     # via
-    #   automat
     #   mypy
     #   twisted
 zope-interface==8.0.1
